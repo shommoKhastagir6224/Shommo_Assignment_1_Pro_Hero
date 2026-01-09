@@ -80,7 +80,8 @@ button:hover {
 
 .Main_art .headline {
     font-size: 72px;
-    font-weight:48px; /* Bold */
+    font-weight: 48px;
+    /* Bold */
     text-align: center;
     color: white;
     padding-bottom: 32px;
@@ -94,8 +95,8 @@ button:hover {
     font-size: 18px;
     color: white;
     text-align: center;
-    padding-left: 220px ;
-    padding-right: 220px ;  
+    padding-left: 220px;
+    padding-right: 220px;
 }
 
 .Main_art .Headline_btn {
@@ -164,7 +165,7 @@ button:hover {
 
 .item1 .Cards h5 {
     font-size: 24px;
-    font-weight: 42px; 
+    font-weight: 42px;
     padding-top: 16px;
     padding-bottom: 16px;
 }
@@ -198,7 +199,7 @@ button:hover {
 }
 
 .section_Item .Section_headline {
-    font-weight: 48px; 
+    font-weight: 48px;
     font-size: 48px;
     margin-bottom: 20px;
 }
@@ -214,9 +215,10 @@ button:hover {
     list-style: none;
     margin-top: 40px;
     padding: 0;
-   
+
 }
-.section_Item li{
+
+.section_Item li {
     text-align: center;
     display: flex;
     justify-content: start;
@@ -225,4 +227,44 @@ button:hover {
 
 .section_Item span {
     padding: 15px;
+}
+
+
+/* Last Item */
+.Last_item {
+    background-color: rgb(241, 240, 239);
+    text-align: center;
+    margin: 2px 160px 120px 160px;
+    padding: 80px 40px 80px 40px;
+}
+
+.Last_item h3 {
+    font-weight: 48px;
+    font-size: 40px;
+}
+
+.Last_item p {
+    font-weight: 400;
+    margin: 16px 24px 24px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.Last_item button {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: aliceblue;
+    background-color: rgba(48, 184, 104);
+    cursor: pointer;
+    border: none;
+}
+
+.Last_item button:hover {
+    background-color: rgba(45, 175, 99, 0.8);
 }
