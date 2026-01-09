@@ -268,3 +268,49 @@ button:hover {
 .Last_item button:hover {
     background-color: rgba(45, 175, 99, 0.8);
 }
+
+/* Footer */
+footer {
+    background-color: rgb(1, 24, 45);
+}
+
+footer #logo_footer {
+    width: 139px;
+    height: 60px;
+}
+
+.footer_items {
+    padding: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_list {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 48px;
+    color: beige;
+}
+
+.footer_list img {
+    height: 20px;
+    width: 20px;
+}
+
+.footer_list ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.footer_list ul li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.footer_Point {
+    padding: 30px;
+    font-size: 16px;
+    color: aliceblue;
+    text-align: center;
+}
