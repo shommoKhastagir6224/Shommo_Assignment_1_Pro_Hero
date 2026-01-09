@@ -1,0 +1,36 @@
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    height: 90px;
+}
+
+header .Header_nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 120px;
+}
+
+header .logo {
+    height: 60px;
+    width: 139px;
+}
+
+header .item {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
