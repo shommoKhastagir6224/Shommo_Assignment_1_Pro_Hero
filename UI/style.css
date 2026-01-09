@@ -176,3 +176,53 @@ button:hover {
     margin-bottom: 15px;
 }
 
+/* Section Item */
+.section_Item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 120px 120px 120px;
+    gap: 60px;
+}
+
+.section_Item #Section_img {
+    height: 600px;
+    width: 600px;
+}
+
+.section_Item #Section_heading {
+    font-size: 18px;
+    text-align: left;
+    color: rgba(48, 184, 104, 1);
+    margin-bottom: 20px;
+}
+
+.section_Item .Section_headline {
+    font-weight: 48px; 
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.section_Item p {
+    color: rgba(98, 115, 130, 1);
+    font-size: 16px;
+}
+
+.section_Item .section_list {
+    font-size: 16px;
+    text-align: left;
+    list-style: none;
+    margin-top: 40px;
+    padding: 0;
+   
+}
+.section_Item li{
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.section_Item span {
+    padding: 15px;
+}
